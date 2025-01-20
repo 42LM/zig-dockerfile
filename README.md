@@ -4,6 +4,10 @@ These docker images can be used for the purpose of creating a [Docker container 
 
 If you just want to use zig for building a github action and want to waive javascript completely this image might be for **YOU** 🫵!
 
+> [!NOTE]
+> Build master/dev?
+> - Check out the [dev](https://github.com/42LM/zig-dockerfile/tree/dev) branch.
+
 ## Usage
 Build image
 ```sh
@@ -18,10 +22,11 @@ docker run -it zig0.13.0 sh
 docker run --name zigdocker zig0.13.0
 ```
 
-## Appendix
+## Notes
 This docker image fills a tiny niche and only exists for testing purposes and github actions.
 
 > [!CAUTION]
-> > **Zig makes Docker irrelevant.** You probably do not need a Docker image to
+> > [**Zig makes Docker irrelevant.**](https://github.com/ziglang/docker-zig) You probably do not need a Docker image to
 build your Zig application, ...
-> <sup>Andrew Kelley</sup>
+> >
+> > <sup>Andrew Kelley</sup>
