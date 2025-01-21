@@ -5,8 +5,19 @@ These docker images can be used for the purpose of creating a [Docker container 
 If you just want to use zig for building a github action and want to waive javascript completely this image might be for **YOU** 🫵!
 
 > [!NOTE]
-> Build master/dev?
+> The `Dockerfile` in the [main/default](https://github.com/42LM/zig-dockerfile) branch lets
+> you build a regular version on `linux x86_64`.
+>
+> For more options check out different branches:
+>
+> Build a regular version with setting the `OS` and `ARCH`?
+> - Check out the [default_os_arch](https://github.com/42LM/zig-dockerfile/tree/default_os_arch) branch.
+>
+> Build master/dev on `linux x85_64`?
 > - Check out the [dev](https://github.com/42LM/zig-dockerfile/tree/dev) branch.
+>
+> Build master/dev version with setting the `OS` and `ARCH`?
+> - Check out the [dev_os_arch](https://github.com/42LM/zig-dockerfile/tree/dev_os_arch) branch.
 
 ## Usage
 Build image
