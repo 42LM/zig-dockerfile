@@ -1,6 +1,6 @@
 # zig-dockerfile
 This repo provides docker image examples that contain zig.
-These docker images can be used for the purpose of creating a [Docker container github action](https://docs.github.com/en/actions/sharing-automations/creating-actions/creating-a-docker-container-action).
+These docker images can be used for the purpose of creating a [Docker container github action](https://docs.github.com/en/actions/sharing-automations/creating-actions/creating-a-docker-container-action) or testing.
 
 If you just want to use zig for building a github action and want to waive javascript completely this image might be for **YOU** 🫵!
 
